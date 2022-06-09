@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>mainpage</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>lorm ipsum</h1>
+    <div class="card">
+      <button onmousedown="="decrement()" name="button">-</button>
+      b
+      <h2 id="root"></h2>
+      <button onmousedown="="increment()" name="button">+</button>
+
+
+    </div>
+
+
+
+  </div>
+  <script>
+    var data=70;
+    document.getelementById("root").innerText=data;
+    function decrement(){
+      data=data-1;
+      document.getelementById("root").innerText=data;
+
+    }
+    function increment(){
+      data=data+1;
+    }
+
+
+  </script>
+
+</body>
+
+</html>

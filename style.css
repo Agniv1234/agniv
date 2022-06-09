@@ -1,0 +1,105 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 115, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  height: 100vh;
+}
+
+.login {
+  /* display: inline-block; */
+  background: white;
+  text-align: center;
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+
+}
+  h1 {
+  border-bottom: 1px solid silver;
+  padding-bottom: 10px;
+
+  /* padding:0 0 10px 0;
+}
+form .textfield{
+  /* position:relative; */
+}
+.submit{
+  width:75%;
+  height:30px;
+  background-color: #2691d9;
+  border:1px solid;
+  border-radius:25px;
+  color:white;
+  font-size:15px;
+}
+
+.submit:hover{
+  transition: .5s;
+  border-color: #2691d9;
+
+}
+.signup{
+  text-decoration: none;
+}
+.signup:hover{
+  text-decoration: underline;
+}
+
+/*                     SIGN UP */
+.textregion{
+  margin-left: 36px;
+}
+.signup2{
+  background: white;
+  text-align: center;
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  /* height: 300px; */
+
+}
+/* .signup2 h1{
+  padding-bottom: 10px;
+  border-bottom: 1px solid silver;
+} */
+.username{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.password{
+  margin-left: 3px;
+}
+.signupbutton{
+  width:75%;
+  height:30px;
+  background-color: #2691d9;
+  border:1px solid;
+  border-radius:25px;
+  color:white;
+  font-size:15px;
+  margin-top: 20px;
+
+
+}
+.signupbutton:hover{
+  transition: .5s;
+  border-color: #2691d9;
+
+
+
+}
+.Storename{
+  margin:15px 0px 10px 0px;
+}
